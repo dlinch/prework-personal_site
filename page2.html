@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset ="utf-8">
+		<title>Who Dat?</title>
+		<link rel="stylesheet" href="style.css">
+		<script src="jquery-1.11.3.js"></script>
+ 
+<script type="text/javascript">
+ 
+ $(document).ready(function(){
+
+ 	var reveal = function(){
+ 		$('.hide').removeClass();
+ 	} 
+	
+$('.button').on('click', reveal);
+
+});
+	
+</script>
+	</head>
+	<body>
+		<div>
+		<h1>Life Goals</h1>
+		<a href="index.html" class="btn">Derik</a>
+		<ul>
+			<li>Eat a pie on every continent.</li>
+			<li>Visit every State.</li>
+			<li>Not feel weird feelings about checking my bank account.</li>
+			<li>Get a job I don't hate.</li>
+			<li>Look better naked.</li>
+			<li>Become a product owner.</li>
+			<li>Maybe learn data science.</li>
+			<li>Build my own product.</li>
+			<li>Build a cheesy mobile app.</li>
+			<li>Start my own company.
+					<ul>
+						<li>Start up.</li>
+						<li>Cash in.</li>
+						<li>Sell out.</li>
+						<li>Bro down.</li>
+					</ul>
+			</li>
+			<li>Refuse to take anything too seriously.</li>
+		</ul>
+
+		<button class="button">Push me bro.</button>
+		<button class="hide">Just how I like it.</button>
+
+		<img src= "http://i.giphy.com/KmrpxSVxTB9Ty.gif" alt="Gif, yo.">
+	</div>
+	</body>
+</html>
